@@ -1,1 +1,1 @@
-java -cp .;..\libs\jms-2.0.jar;..\libs\tibjms.jar ..\classes\JMSMonitor.class
+java -verbose -cp .;..\libs\jms-2.0.jar;..\libs\tibjms.jar ..\classes\JMSMonitor.class >> ..\logs\output.txt
